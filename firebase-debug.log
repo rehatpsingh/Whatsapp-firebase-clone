@@ -1,0 +1,47 @@
+[debug] [2021-09-29T13:50:17.066Z] ----------------------------------------------------------------------
+[debug] [2021-09-29T13:50:17.069Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rehatpreet.singh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-09-29T13:50:17.069Z] CLI Version:   9.18.0
+[debug] [2021-09-29T13:50:17.069Z] Platform:      win32
+[debug] [2021-09-29T13:50:17.069Z] Node Version:  v14.17.5
+[debug] [2021-09-29T13:50:17.070Z] Time:          Wed Sep 29 2021 19:20:17 GMT+0530 (India Standard Time)
+[debug] [2021-09-29T13:50:17.071Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-29T13:50:17.143Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-29T13:50:17.143Z] > authorizing via signed-in user (rehatpsingh@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\whats-app-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using whats-app-clone-f9dec. 
+[debug] [2021-09-29T13:50:41.942Z] > refreshing access token with scopes: []
+[debug] [2021-09-29T13:50:41.943Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-29T13:50:42.177Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Wed, 29 Sep 2021 13:50:49 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-29T13:50:42.207Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/whats-app-clone-f9dec [none]
+[debug] [2021-09-29T13:50:42.790Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/whats-app-clone-f9dec 200
+[debug] [2021-09-29T13:50:42.791Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/whats-app-clone-f9dec {"projectId":"whats-app-clone-f9dec","projectNumber":"511428144153","displayName":"Whats App Clone","name":"projects/whats-app-clone-f9dec","resources":{"hostingSite":"whats-app-clone-f9dec","storageBucket":"whats-app-clone-f9dec.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
